@@ -1,0 +1,11 @@
+mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C homebrew
+
+brew cask install visual-studio-code
+
+brew cask install iterm2
+
+brew install zsh
+
+brew install vim
+
+git clone git@github.com:AJensen13/config.git
